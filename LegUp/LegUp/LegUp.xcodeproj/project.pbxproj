@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3882BEF11E4AA5AF000CD03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BEF01E4AA5AF000CD03F /* AppDelegate.swift */; };
+		3882BEF31E4AA5AF000CD03F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BEF21E4AA5AF000CD03F /* ViewController.swift */; };
+		3882BEF61E4AA5AF000CD03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882BEF41E4AA5AF000CD03F /* Main.storyboard */; };
+		3882BEF91E4AA5AF000CD03F /* LegUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3882BEF71E4AA5AF000CD03F /* LegUp.xcdatamodeld */; };
+		3882BEFB1E4AA5AF000CD03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3882BEFA1E4AA5AF000CD03F /* Assets.xcassets */; };
+		3882BEFE1E4AA5AF000CD03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882BEFC1E4AA5AF000CD03F /* LaunchScreen.storyboard */; };
+		3882BF091E4AA5AF000CD03F /* LegUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BF081E4AA5AF000CD03F /* LegUpTests.swift */; };
+		3882BF141E4AA5AF000CD03F /* LegUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BF131E4AA5AF000CD03F /* LegUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3882BF051E4AA5AF000CD03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3882BEE51E4AA5AE000CD03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3882BEEC1E4AA5AE000CD03F;
+			remoteInfo = LegUp;
+		};
+		3882BF101E4AA5AF000CD03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3882BEE51E4AA5AE000CD03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3882BEEC1E4AA5AE000CD03F;
+			remoteInfo = LegUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3882BEED1E4AA5AF000CD03F /* LegUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3882BEF01E4AA5AF000CD03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3882BEF21E4AA5AF000CD03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3882BEF51E4AA5AF000CD03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3882BEF81E4AA5AF000CD03F /* LegUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LegUp.xcdatamodel; sourceTree = "<group>"; };
+		3882BEFA1E4AA5AF000CD03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3882BEFD1E4AA5AF000CD03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3882BEFF1E4AA5AF000CD03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3882BF041E4AA5AF000CD03F /* LegUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3882BF081E4AA5AF000CD03F /* LegUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegUpTests.swift; sourceTree = "<group>"; };
+		3882BF0A1E4AA5AF000CD03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3882BF0F1E4AA5AF000CD03F /* LegUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3882BF131E4AA5AF000CD03F /* LegUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegUpUITests.swift; sourceTree = "<group>"; };
+		3882BF151E4AA5AF000CD03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3882BEEA1E4AA5AE000CD03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF011E4AA5AF000CD03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF0C1E4AA5AF000CD03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3882BEE41E4AA5AE000CD03F = {
+			isa = PBXGroup;
+			children = (
+				3882BEEF1E4AA5AF000CD03F /* LegUp */,
+				3882BF071E4AA5AF000CD03F /* LegUpTests */,
+				3882BF121E4AA5AF000CD03F /* LegUpUITests */,
+				3882BEEE1E4AA5AF000CD03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3882BEEE1E4AA5AF000CD03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3882BEED1E4AA5AF000CD03F /* LegUp.app */,
+				3882BF041E4AA5AF000CD03F /* LegUpTests.xctest */,
+				3882BF0F1E4AA5AF000CD03F /* LegUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3882BEEF1E4AA5AF000CD03F /* LegUp */ = {
+			isa = PBXGroup;
+			children = (
+				3882BEF01E4AA5AF000CD03F /* AppDelegate.swift */,
+				3882BEF21E4AA5AF000CD03F /* ViewController.swift */,
+				3882BEF41E4AA5AF000CD03F /* Main.storyboard */,
+				3882BEFA1E4AA5AF000CD03F /* Assets.xcassets */,
+				3882BEFC1E4AA5AF000CD03F /* LaunchScreen.storyboard */,
+				3882BEFF1E4AA5AF000CD03F /* Info.plist */,
+				3882BEF71E4AA5AF000CD03F /* LegUp.xcdatamodeld */,
+			);
+			path = LegUp;
+			sourceTree = "<group>";
+		};
+		3882BF071E4AA5AF000CD03F /* LegUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3882BF081E4AA5AF000CD03F /* LegUpTests.swift */,
+				3882BF0A1E4AA5AF000CD03F /* Info.plist */,
+			);
+			path = LegUpTests;
+			sourceTree = "<group>";
+		};
+		3882BF121E4AA5AF000CD03F /* LegUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3882BF131E4AA5AF000CD03F /* LegUpUITests.swift */,
+				3882BF151E4AA5AF000CD03F /* Info.plist */,
+			);
+			path = LegUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3882BEEC1E4AA5AE000CD03F /* LegUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3882BF181E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUp" */;
+			buildPhases = (
+				3882BEE91E4AA5AE000CD03F /* Sources */,
+				3882BEEA1E4AA5AE000CD03F /* Frameworks */,
+				3882BEEB1E4AA5AE000CD03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegUp;
+			productName = LegUp;
+			productReference = 3882BEED1E4AA5AF000CD03F /* LegUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3882BF031E4AA5AF000CD03F /* LegUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3882BF1B1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpTests" */;
+			buildPhases = (
+				3882BF001E4AA5AF000CD03F /* Sources */,
+				3882BF011E4AA5AF000CD03F /* Frameworks */,
+				3882BF021E4AA5AF000CD03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3882BF061E4AA5AF000CD03F /* PBXTargetDependency */,
+			);
+			name = LegUpTests;
+			productName = LegUpTests;
+			productReference = 3882BF041E4AA5AF000CD03F /* LegUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3882BF0E1E4AA5AF000CD03F /* LegUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3882BF1E1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpUITests" */;
+			buildPhases = (
+				3882BF0B1E4AA5AF000CD03F /* Sources */,
+				3882BF0C1E4AA5AF000CD03F /* Frameworks */,
+				3882BF0D1E4AA5AF000CD03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3882BF111E4AA5AF000CD03F /* PBXTargetDependency */,
+			);
+			name = LegUpUITests;
+			productName = LegUpUITests;
+			productReference = 3882BF0F1E4AA5AF000CD03F /* LegUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3882BEE51E4AA5AE000CD03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ayanna Kosoko";
+				TargetAttributes = {
+					3882BEEC1E4AA5AE000CD03F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3882BF031E4AA5AF000CD03F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3882BEEC1E4AA5AE000CD03F;
+					};
+					3882BF0E1E4AA5AF000CD03F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3882BEEC1E4AA5AE000CD03F;
+					};
+				};
+			};
+			buildConfigurationList = 3882BEE81E4AA5AE000CD03F /* Build configuration list for PBXProject "LegUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3882BEE41E4AA5AE000CD03F;
+			productRefGroup = 3882BEEE1E4AA5AF000CD03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3882BEEC1E4AA5AE000CD03F /* LegUp */,
+				3882BF031E4AA5AF000CD03F /* LegUpTests */,
+				3882BF0E1E4AA5AF000CD03F /* LegUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3882BEEB1E4AA5AE000CD03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882BEFE1E4AA5AF000CD03F /* LaunchScreen.storyboard in Resources */,
+				3882BEFB1E4AA5AF000CD03F /* Assets.xcassets in Resources */,
+				3882BEF61E4AA5AF000CD03F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF021E4AA5AF000CD03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF0D1E4AA5AF000CD03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3882BEE91E4AA5AE000CD03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882BEF31E4AA5AF000CD03F /* ViewController.swift in Sources */,
+				3882BEF11E4AA5AF000CD03F /* AppDelegate.swift in Sources */,
+				3882BEF91E4AA5AF000CD03F /* LegUp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF001E4AA5AF000CD03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882BF091E4AA5AF000CD03F /* LegUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3882BF0B1E4AA5AF000CD03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3882BF141E4AA5AF000CD03F /* LegUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3882BF061E4AA5AF000CD03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3882BEEC1E4AA5AE000CD03F /* LegUp */;
+			targetProxy = 3882BF051E4AA5AF000CD03F /* PBXContainerItemProxy */;
+		};
+		3882BF111E4AA5AF000CD03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3882BEEC1E4AA5AE000CD03F /* LegUp */;
+			targetProxy = 3882BF101E4AA5AF000CD03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3882BEF41E4AA5AF000CD03F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882BEF51E4AA5AF000CD03F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3882BEFC1E4AA5AF000CD03F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882BEFD1E4AA5AF000CD03F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3882BF161E4AA5AF000CD03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3882BF171E4AA5AF000CD03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3882BF191E4AA5AF000CD03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LegUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3882BF1A1E4AA5AF000CD03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LegUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3882BF1C1E4AA5AF000CD03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LegUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegUp.app/LegUp";
+			};
+			name = Debug;
+		};
+		3882BF1D1E4AA5AF000CD03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LegUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegUp.app/LegUp";
+			};
+			name = Release;
+		};
+		3882BF1F1E4AA5AF000CD03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LegUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LegUp;
+			};
+			name = Debug;
+		};
+		3882BF201E4AA5AF000CD03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LegUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LegUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3882BEE81E4AA5AE000CD03F /* Build configuration list for PBXProject "LegUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882BF161E4AA5AF000CD03F /* Debug */,
+				3882BF171E4AA5AF000CD03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3882BF181E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882BF191E4AA5AF000CD03F /* Debug */,
+				3882BF1A1E4AA5AF000CD03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3882BF1B1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882BF1C1E4AA5AF000CD03F /* Debug */,
+				3882BF1D1E4AA5AF000CD03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3882BF1E1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3882BF1F1E4AA5AF000CD03F /* Debug */,
+				3882BF201E4AA5AF000CD03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3882BEF71E4AA5AF000CD03F /* LegUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3882BEF81E4AA5AF000CD03F /* LegUp.xcdatamodel */,
+			);
+			currentVersion = 3882BEF81E4AA5AF000CD03F /* LegUp.xcdatamodel */;
+			path = LegUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3882BEE51E4AA5AE000CD03F /* Project object */;
+}
