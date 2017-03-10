@@ -15,6 +15,7 @@
 		3882BEFE1E4AA5AF000CD03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882BEFC1E4AA5AF000CD03F /* LaunchScreen.storyboard */; };
 		3882BF091E4AA5AF000CD03F /* LegUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BF081E4AA5AF000CD03F /* LegUpTests.swift */; };
 		3882BF141E4AA5AF000CD03F /* LegUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882BF131E4AA5AF000CD03F /* LegUpUITests.swift */; };
+		A96A3DDB9E97BB405939FFF4 /* Pods_LegUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7716A04F50E64E30FC0F7 /* Pods_LegUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE6DFBF7D1CB2D679CB9592 /* Pods-LegUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LegUp/Pods-LegUp.release.xcconfig"; sourceTree = "<group>"; };
 		3882BEED1E4AA5AF000CD03F /* LegUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3882BEF01E4AA5AF000CD03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3882BEF21E4AA5AF000CD03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3882BF0F1E4AA5AF000CD03F /* LegUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3882BF131E4AA5AF000CD03F /* LegUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegUpUITests.swift; sourceTree = "<group>"; };
 		3882BF151E4AA5AF000CD03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA39E8140E6B0428E0A3B70E /* Pods-LegUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LegUp/Pods-LegUp.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C7716A04F50E64E30FC0F7 /* Pods_LegUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96A3DDB9E97BB405939FFF4 /* Pods_LegUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				3882BF071E4AA5AF000CD03F /* LegUpTests */,
 				3882BF121E4AA5AF000CD03F /* LegUpUITests */,
 				3882BEEE1E4AA5AF000CD03F /* Products */,
+				ACEC5A2551E278503A6A30DE /* Pods */,
+				5DCE865F881BA1D645C6EC51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,23 @@
 			path = LegUpUITests;
 			sourceTree = "<group>";
 		};
+		5DCE865F881BA1D645C6EC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7716A04F50E64E30FC0F7 /* Pods_LegUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEC5A2551E278503A6A30DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA39E8140E6B0428E0A3B70E /* Pods-LegUp.debug.xcconfig */,
+				0EE6DFBF7D1CB2D679CB9592 /* Pods-LegUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3882BF181E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUp" */;
 			buildPhases = (
+				9DB8964CEDFA2EBF7BF13DF4 /* [CP] Check Pods Manifest.lock */,
 				3882BEE91E4AA5AE000CD03F /* Sources */,
 				3882BEEA1E4AA5AE000CD03F /* Frameworks */,
 				3882BEEB1E4AA5AE000CD03F /* Resources */,
+				E5526D39AB6212360AE80977 /* [CP] Embed Pods Frameworks */,
+				3C31CC925B364BBA53CB461A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +223,16 @@
 				TargetAttributes = {
 					3882BEEC1E4AA5AE000CD03F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					3882BF031E4AA5AF000CD03F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3882BEEC1E4AA5AE000CD03F;
 					};
 					3882BF0E1E4AA5AF000CD03F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3882BEEC1E4AA5AE000CD03F;
 					};
 				};
@@ -253,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C31CC925B364BBA53CB461A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LegUp/Pods-LegUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB8964CEDFA2EBF7BF13DF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5526D39AB6212360AE80977 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LegUp/Pods-LegUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3882BEE91E4AA5AE000CD03F /* Sources */ = {
@@ -403,23 +481,27 @@
 		};
 		3882BF191E4AA5AF000CD03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA39E8140E6B0428E0A3B70E /* Pods-LegUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LegUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3882BF1A1E4AA5AF000CD03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE6DFBF7D1CB2D679CB9592 /* Pods-LegUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LegUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegUp.app/LegUp";
 			};
 			name = Debug;
@@ -443,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegUp.app/LegUp";
 			};
 			name = Release;
@@ -454,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LegUp;
 			};
 			name = Debug;
@@ -465,6 +550,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kosoko.LegUpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LegUp;
 			};
 			name = Release;
@@ -488,6 +574,7 @@
 				3882BF1A1E4AA5AF000CD03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3882BF1B1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +583,7 @@
 				3882BF1D1E4AA5AF000CD03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3882BF1E1E4AA5AF000CD03F /* Build configuration list for PBXNativeTarget "LegUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +592,7 @@
 				3882BF201E4AA5AF000CD03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
