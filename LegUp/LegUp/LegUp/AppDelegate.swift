@@ -11,6 +11,7 @@ import CoreData
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FBSDKShareKit
+import AWSCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
@@ -25,6 +26,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         
         FBSDKApplicationDelegate.sharedInstance().application(application,
                                                               didFinishLaunchingWithOptions: launchOptions)
+        // AWS DynamoDB config
+        let credentialsProvider = AWSCognitoCredentialsProvider(regionType:AWSRegionType.USEast1, identityPoolId: "us-east-1:403c6b1f-d259-4a05-8e6b-34791c747579")
+        let configuration = AWSServiceConfiguration(region: AWSRegionType.USEast1 , credentialsProvider:credentialsProvider)
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
         
         return true
     }

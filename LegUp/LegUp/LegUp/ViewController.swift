@@ -10,6 +10,7 @@ import UIKit
 import AWSCore
 import FacebookCore
 import FacebookLogin
+import AWSDynamoDB
 
 class ViewController: UIViewController, LoginButtonDelegate
 {
@@ -33,6 +34,10 @@ class ViewController: UIViewController, LoginButtonDelegate
             
             view.addSubview(loginButton)
         }
+        
+        // Test AWS DynamoDB (prints tables from DB)
+        dynamoTest()
+        
     }
     
     /*!
@@ -104,5 +109,24 @@ class ViewController: UIViewController, LoginButtonDelegate
     {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // AWS DynamoDB test -seanmorgan
+    func dynamoTest() {
+        let dynamodb = AWSDynamoDB.default()
+        let listTableInput = AWSDynamoDBListTablesInput()
+        dynamodb.listTables(listTableInput!).continueWith { (task) -> Any? in
+            if let error = task.error {
+                print("Error occurred: \(error)")
+                return nil
+            }
+            let listTablesOutput = task.result!
+            
+            for tableName in listTablesOutput.tableNames! {
+                //fetch each table name
+                print("\(tableName)")
+            }
+            return nil
+        }
     }
 }
